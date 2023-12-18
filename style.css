@@ -167,3 +167,16 @@
     opacity: 0.3;
     border-radius: 25px;
 }
+
+/* Esercizio 9 */
+
+.ex-9-img {
+    transition: 2s;
+}
+
+.ex-9-img:hover {
+    filter: grayscale(100%);
+    opacity: 0.3;
+    border-radius: 25px;
+    transform: scale(0.8);
+}
