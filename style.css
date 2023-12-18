@@ -192,9 +192,25 @@
     100% {
         transform: rotate(360deg);
     }
-
 }
 
 .ex-10-icon {
     animation: giraegiraancora 1s infinite;
+}
+
+/* Esercizio 11 */
+
+
+.ex-11-icon:hover {
+    animation: stopandback 1s;
+}
+
+@keyframes stopandback {
+    0% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
 }
