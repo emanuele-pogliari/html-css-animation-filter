@@ -219,20 +219,6 @@
 
 @keyframes movewhitetopspaces {
     0% {
-        left: 0%;
-    }
-
-    100% {
-        left: calc(100% - 60px);
-    }
-}
-
-.ex-12-top-white {
-    animation: movewhitespaces 2s infinite;
-}
-
-@keyframes movewhitebottomspaces {
-    0% {
         left: 10%;
     }
 
@@ -260,3 +246,6 @@
 .ex-12-bottom-white {
     animation: movewhitebottomspaces 2s infinite;
 }
+
+
+/* Esercizio 13 */
